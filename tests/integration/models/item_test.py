@@ -8,7 +8,7 @@ class ItemTest(BaseTest):
             item = ItemModel('test', 19.99)
 
             self.assertIsNone(ItemModel.find_by_name('test'),
-                              f"Found item with name {item.name} but expected none.")
+                              "Found an item with name {}, but expected not to.".format(item.name))
 
             item.save_to_db()
 

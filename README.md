@@ -1,3 +1,5 @@
-# python-rest-api-tests
+# Stores REST Api
 
-testing a python REST api
+This is built with Flask, Flask-RESTful, Flask-JWT, and Flask-SQLAlchemy.
+
+Deployed on Heroku.
